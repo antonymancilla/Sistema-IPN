@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/img/1.jpeg);
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  height: 200%;
+  text-align: center;
+  background-color: #6c1d45;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+header nav {
+  background: #6c1d45d5;
+  overflow: hidden;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  float: left;
+}
+header nav ul li .activa:link {
+  background-color: #6c1d45;
+}
+header nav ul li a {
+  padding: 10px 90px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav ul li a:hover {
+  background: #6c1d45;
+}
+.contenedor .main {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.contenedor .main .articulo .formulario {
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  overflow: hidden;
+  padding: 10px;
+}
+.formulario .cont1 .boleta {
+  width: 50%;
+  padding: 10px 15px;
+}
+.formulario .cont1 input[type="text"] {
+  width: 50%;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+.formulario .cont2 input[type="text"] {
+  width: 50%;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+.formulario .cont3 {
+  width: 25%;
+  margin-top: 18px;
+  float: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+.formulario .cont3 .semestre {
+  display: inline-block;
+  padding: 5px;
+}
+
+.formulario .cont4 input[type="text"] {
+  width: 33%;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+
+.formulario .cont5 input[type="time"] {
+  width: 33%;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+  float: left;
+  margin-bottom: 20px;
+}
+.formulario .msj {
+  font-size: 16px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+.formulario .barra {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.formulario .app input[type="text"] {
+  width: 70%;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 60px;
+}
+.formulario .salir input[type="time"] {
+  width: 20%;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.formulario .msj2 {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.formulario .grupo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.formulario .grupo .g1 input[type="text"] {
+  width: 30%;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+  float: left;
+  margin-right: 10%;
+  margin-top: 40px;
+}
+.formulario .grupo .t {
+  color: rgba(0, 0, 0, 0.6);
+}
+.formulario .grupo .g2 input[type="number"] {
+  width: 20%;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+  float: left;
+  margin-right: 10%;
+  margin-top: 18px;
+}
+.formulario .grupo .g3 .semestre {
+  width: 10%;
+  display: inline-block;
+  padding: 10px 15px;
+  margin-right: 20%;
+}
+.formulario .hora .entrada .m,
+.formulario .hora .salida .m {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-right: 30%;
+}
+
+.formulario .hora .entrada input[type="time"] {
+  margin-left: 100px;
+}
+.formulario .hora .salida {
+  margin-top: -50px;
+}
+.formulario .hora .entrada input[type="time"],
+.formulario .hora .salida input[type="time"] {
+  width: 20%;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  float: left;
+  margin-top: 10px;
+  margin-right: 20%;
+  margin-bottom: 2%;
+}
+.formulario .cont6 {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+.formulario .cont6 .ingresar {
+  padding: 10px 50px;
+  border: none;
+  background-color: rgba(108, 29, 69, 0.8);
+  color: white;
+  font-size: 16px;
+  border-radius: 3px;
+}
+.formulario .cont6 .ingresar:hover {
+  background-color: rgba(108, 29, 69, 1);
+  cursor: pointer;
+}
+footer {
+  background: #6c1d45;
+  color: #fff;
+  clear: both;
+  padding: 10px 10px;
+  text-align: center;
+  line-height: 30px;
+}

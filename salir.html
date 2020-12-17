@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IPN</title>
+    <link rel="stylesheet" href="css/layout.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <header>
+        <div>
+          <h1>Instituto Politécnico Nacional</h1>
+          <br />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">ENTRADA</a></li>
+            <li><a href="#" class="activa">SALIDA</a></li>
+            <li><a href="grupo.html">GRUPOS</a></li>
+            <li><a href="impresion.html">IMPRESIÓN</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="main">
+        <article class="articulo">
+          <form action="#" method="GET" class="formulario">
+            <div class="cont1">
+              <input
+                type="text"
+                name="boleta"
+                id="boleta"
+                placeholder="Boleta"
+                required
+              />
+            </div>
+            <div class="cont2">
+              <input
+                type="text"
+                name="nombre"
+                id="nombre"
+                placeholder="Nombre"
+                required
+              />
+            </div>
+            <div class="cont3">
+              <label for="semestre">Semestre</label>
+              <select name="semestre" id="semestre" class="semestre">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+            </div>
+            <div class="cont4">
+              <input
+                type="text"
+                name="sala"
+                id="sala"
+                placeholder="Sala"
+                required
+              />
+            </div>
+            <div class="cont5">
+              <input
+                type="time"
+                name="hora"
+                id="hora"
+                placeholder="Hora / Entrada"
+                required
+              />
+              *
+            </div>
+            <div class="msj">*Introduce la hora de entrada</div>
+            <div class="barra">
+              <hr />
+            </div>
+            <div class="app">
+              <input
+                type="text"
+                name="app"
+                id="app"
+                placeholder="Aplicación usada"
+                required
+              />
+            </div>
+            <div class="salir">
+              <input
+                type="time"
+                name="hora"
+                id="hora"
+                placeholder="Hora / Salida"
+                required
+              />
+              *
+            </div>
+            <div class="msj2">*Introduce la hora de salida</div>
+            <div class="cont6">
+              <input type="submit" value="Salir" class="ingresar" />
+            </div>
+          </form>
+        </article>
+      </section>
+      <footer>
+        <p>Instituto Politécnico Nacional - Copyright ©</p>
+        <p>
+          D.R. Instituto Politécnico Nacional (IPN). Av. Luis Enrique Erro S/N,
+          Unidad Profesional Adolfo López Mateos, Zacatenco, Alcaldía Gustavo A.
+          Madero, C.P. 07738, Ciudad de México, 2019. Conmutador: 55 57 29 60 00
+          / 55 57 29 63 00.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
